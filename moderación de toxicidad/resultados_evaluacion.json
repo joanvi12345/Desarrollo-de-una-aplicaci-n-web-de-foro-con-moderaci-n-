@@ -1,0 +1,62 @@
+[
+  {
+    "modelo": "Naive Bayes",
+    "entrenamiento": 44391,
+    "prueba": 11098,
+    "accuracy": 0.9590016219138584,
+    "precision": 0.954172610556348,
+    "recall": 0.9643178951162371,
+    "f1": 0.9592184278928028,
+    "matriz": [
+      [
+        5292,
+        257
+      ],
+      [
+        198,
+        5351
+      ]
+    ],
+    "segundos_ajuste_y_prediccion": 0.01055598258972168
+  },
+  {
+    "modelo": "SVM lineal",
+    "entrenamiento": 44391,
+    "prueba": 11098,
+    "accuracy": 0.9628761939088124,
+    "precision": 0.9682771194165907,
+    "recall": 0.9571093890791134,
+    "f1": 0.9626608664129056,
+    "matriz": [
+      [
+        5375,
+        174
+      ],
+      [
+        238,
+        5311
+      ]
+    ],
+    "segundos_ajuste_y_prediccion": 725.7635293006897
+  },
+  {
+    "modelo": "KNN",
+    "entrenamiento": 20000,
+    "prueba": 5000,
+    "accuracy": 0.9266,
+    "precision": 0.9536367503190132,
+    "recall": 0.8968,
+    "f1": 0.9243454957740672,
+    "matriz": [
+      [
+        2391,
+        109
+      ],
+      [
+        258,
+        2242
+      ]
+    ],
+    "segundos_ajuste_y_prediccion": 2.885380744934082
+  }
+]
